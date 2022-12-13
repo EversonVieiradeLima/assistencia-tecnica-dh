@@ -1,0 +1,18 @@
+.antesEDepois__divisoes {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 3rem;
+   width: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+   .antesEDepois__divisoes {
+      width: 80vw;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .antesEDepois__divisoes {
+      width: 90vw;
+   }
+}

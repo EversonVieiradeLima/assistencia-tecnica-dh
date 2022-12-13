@@ -1,0 +1,23 @@
+.menu__link {
+   color: #F1F1F1;
+   font-weight: 500;
+   transition: .1s;
+   text-decoration: none;
+}
+
+.menu__link:hover {
+   cursor: pointer;
+   color: #000000;
+   border-bottom: 2px solid #000000;
+}
+
+.menu__link:active {
+   color: #F1F1F1;
+   border-bottom: 2px solid #F1F1F1;
+}
+
+@media screen and (max-width: 425px) {
+   .menu__link {
+      font-size: .6rem;
+   }
+}

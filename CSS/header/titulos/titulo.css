@@ -1,0 +1,20 @@
+.titulo {
+   align-items: center;
+   color: #F1F1F1;
+   display: flex;
+   font-size: 3rem;
+   font-weight: 800;
+   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+   .titulo {
+      font-size: 2rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .titulo {
+      font-size: 1rem;
+   }
+}

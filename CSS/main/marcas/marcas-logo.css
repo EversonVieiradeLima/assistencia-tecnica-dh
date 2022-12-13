@@ -1,0 +1,20 @@
+.marcas__logo {
+   margin-top: 2rem;
+}
+
+.marcas__logo.continental {
+   background: #ffffff;
+   padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+   .marcas__logo {
+      width: 8rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .marcas__logo {
+      width: 5rem;
+   }
+}

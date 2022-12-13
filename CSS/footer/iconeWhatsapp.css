@@ -1,0 +1,13 @@
+.iconeWhatsapp {
+   /* background: #0dc500; */
+   border-radius: 100% 100% 100% 30%;
+   bottom: 50px;
+   padding: .3rem;
+   position: fixed;
+   right: 10px;
+   width: 3rem;
+}
+
+.iconeWhatsapp:hover {
+   width: 4rem;
+}

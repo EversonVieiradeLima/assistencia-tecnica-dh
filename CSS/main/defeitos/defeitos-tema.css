@@ -1,0 +1,9 @@
+.defeitos__tema {
+   margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 425px) {
+   .defeitos__tema {
+      width: 80%;
+   }
+}

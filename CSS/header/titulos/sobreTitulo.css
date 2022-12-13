@@ -1,0 +1,10 @@
+.sobreTitulo {
+   color: #F1F1F1;
+   font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+   .sobreTitulo {
+      font-size: 1rem;
+   }
+}

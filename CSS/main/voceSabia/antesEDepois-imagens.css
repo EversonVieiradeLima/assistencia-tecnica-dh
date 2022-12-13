@@ -1,0 +1,16 @@
+.antesEDepois__imagens {
+   border-radius: 10px;
+   width: 15rem;
+}
+
+@media screen and (max-width: 768px) {
+   .antesEDepois__imagens {
+      width: 13rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .antesEDepois__imagens {
+      width: 8rem;
+   }
+}

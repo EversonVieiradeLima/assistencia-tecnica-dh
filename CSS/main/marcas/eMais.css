@@ -1,0 +1,10 @@
+.eMais {
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+@media screen and (max-width: 425px) {
+   .eMais {
+      font-size: 1.3rem;
+   }
+}

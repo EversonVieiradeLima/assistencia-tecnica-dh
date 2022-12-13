@@ -1,0 +1,14 @@
+.copyright {
+   background: #000000;
+   color: #ffffff;
+   text-align: center;
+   font-size: .8rem;
+   padding: .3rem 0;
+   font-weight: 300;
+}
+
+@media screen and (max-width: 425px) {
+   .copyright {
+      font-size: .5rem;
+   }
+}

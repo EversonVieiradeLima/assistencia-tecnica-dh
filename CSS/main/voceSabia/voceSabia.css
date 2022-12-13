@@ -1,0 +1,19 @@
+.voceSabia {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 0 5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+   .voceSabia {
+      padding: 0 3rem 1rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .voceSabia {
+      padding: 0 1rem 1rem;
+   }
+}

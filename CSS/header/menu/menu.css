@@ -1,0 +1,12 @@
+.menu {
+   background: #1c71b7;
+   padding: .5rem 0;
+   display: flex;
+   justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+   .menu {
+      justify-content: center;
+   }
+}

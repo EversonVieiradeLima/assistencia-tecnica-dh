@@ -1,0 +1,19 @@
+.logoAssistenciaTecnicaDH {
+   border-radius: 100%;
+   margin: 1rem 0 0 0.5rem;
+   opacity: .7;
+   position: fixed;
+   width: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+   .logoAssistenciaTecnicaDH {
+      width: 4rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .logoAssistenciaTecnicaDH {
+      width: 3rem;
+   }
+}

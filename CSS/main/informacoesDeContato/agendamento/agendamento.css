@@ -1,0 +1,20 @@
+.agendamento {
+   background: #FFBD59;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   padding: 1rem;
+   width: 33.33%;
+}
+
+@media screen and (max-width: 768px) {
+   .agendamento {
+      width: 58%;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .agendamento {
+      width: 75%;
+   }
+}

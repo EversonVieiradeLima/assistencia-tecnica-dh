@@ -1,0 +1,5 @@
+.defeitos__topicos {
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 2.5rem;
+}

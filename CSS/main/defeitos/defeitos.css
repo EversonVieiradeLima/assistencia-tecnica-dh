@@ -1,0 +1,13 @@
+.defeitos {
+   text-align: center;
+   padding: 2rem 0 0 0;
+}
+
+@media screen and (max-width: 425px) {
+   .defeitos {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 0 0 0;
+   }
+}

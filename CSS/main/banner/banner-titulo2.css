@@ -1,0 +1,11 @@
+.banner__titulo2 {
+   font-size: 2rem;
+   position: relative;
+   z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+   .banner__titulo2 {
+      font-size: 1rem;
+   }
+}

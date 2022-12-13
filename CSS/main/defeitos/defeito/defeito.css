@@ -1,0 +1,15 @@
+.defeito {
+   display: flex;
+   flex-direction: column;
+   background: #D0D1D5;
+   margin: 0 2.5rem 2.5rem 0;
+   width: calc(33.33% - 2.5rem);
+   align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+   .defeito {
+      margin-right: 1rem;
+      width: calc(50% - 2rem);
+   }
+}

@@ -1,0 +1,25 @@
+.marcas {
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   width: 65vw;
+}
+
+.marcas.maquina {
+   border-bottom: 2px solid #D0D1D5;
+   padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+   .marcas {
+      width: 80vw;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .marcas {
+      width: 90vw;
+   }
+}

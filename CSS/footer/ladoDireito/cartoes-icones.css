@@ -1,0 +1,15 @@
+.cartoes__icones {
+   width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+   .cartoes__icones {
+      width: 15rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .cartoes__icones {
+      width: 10rem;
+   }
+}

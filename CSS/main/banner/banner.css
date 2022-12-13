@@ -1,0 +1,25 @@
+.banner {
+   display: flex;
+   flex-direction: column;
+   height: 20rem;
+   justify-content: space-evenly;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.banner:before {
+   background: url(../../../Imagens/Consertando_máquina_de_lavar.jpg) no-repeat center / cover;
+   content: ' ';
+   height: 100%;
+   opacity: 0.5;
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+}
+
+@media screen and (max-width: 425px) {
+   .banner {
+      height: 15rem;
+   }
+}

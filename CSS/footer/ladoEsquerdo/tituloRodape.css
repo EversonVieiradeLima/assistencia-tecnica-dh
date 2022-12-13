@@ -1,0 +1,11 @@
+.tituloRodape {
+   font-weight: 800;
+   display: flex;
+   align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+   .tituloRodape {
+      font-size: .8rem;
+   }
+}

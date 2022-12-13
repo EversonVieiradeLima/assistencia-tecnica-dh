@@ -1,0 +1,12 @@
+.paraOTopo {
+   display: flex;
+   justify-content: end;
+}
+
+.botaoParaOTopo {
+   background: url(../../Imagens/seta_para_cima.png) no-repeat center / cover;
+   border: none;
+   height: 3rem;
+   width: 3rem;
+   cursor: pointer;
+}

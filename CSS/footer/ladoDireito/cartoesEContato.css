@@ -1,0 +1,11 @@
+.cartoesEContato {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+   .cartoesEContato {
+      font-size: .7rem;
+   }
+}
