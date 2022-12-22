@@ -1,0 +1,25 @@
+.banner__button {
+   background: #DF1212;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: 500;
+   padding: 1rem 0;
+   position: relative;
+   text-transform: uppercase;
+   transition: .3s;
+   width: 15rem;
+   z-index: 2;
+}
+
+.banner__button:hover {
+   background: #bb0f0f;
+}
+
+@media screen and (max-width: 425px) {
+   .banner__button {
+      font-size: .7rem;
+      width: 10rem;
+   }
+}
